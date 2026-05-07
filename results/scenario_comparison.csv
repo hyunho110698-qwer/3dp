@@ -1,0 +1,13 @@
+Scenario,Model,LOOCV_R2,KFold5_mean,KFold5_std
+S1: Process,Ensemble,0.151,0.1607,0.0702
+S1: Process,GPR,-0.1155,-0.0865,0.1442
+S1: Process,SVR,0.2895,0.2678,0.1225
+S2: + Porosity,Ensemble,0.1497,0.1058,0.1085
+S2: + Porosity,GPR,-0.007,-0.1039,0.1066
+S2: + Porosity,SVR,0.2033,0.196,0.1383
+S3: + CNN,Ensemble,0.2172,0.1828,0.2564
+S3: + CNN,GPR,0.1729,0.1605,0.2619
+S3: + CNN,SVR,0.2136,0.1243,0.2633
+S4: Process+Por+CNN,Ensemble,0.216,0.1705,0.2644
+S4: Process+Por+CNN,GPR,0.1753,0.1551,0.2702
+S4: Process+Por+CNN,SVR,0.2037,0.1037,0.269
